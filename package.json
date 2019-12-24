@@ -8,10 +8,10 @@
   },
   "keywords": [],
   "repository": "lizarti/express-start",
-	"author": {
-		"name": "Wesley Lizarti",
+  "author": {
+    "name": "Wesley Lizarti",
     "email": "wesley.lizarti@gmail.com"
-  ,
+  },
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.19.0",
