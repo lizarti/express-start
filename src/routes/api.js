@@ -11,8 +11,19 @@ const router = express.Router()
 router.get('/usuarios', UsuarioController.listarTodos)
 
 /* note que é o mesmo que 
-router.get('usuarios', function (request, response) {
-  return [1, 2, 3]
+router.get('/usuarios', function (req, res) {
+  let usuarios = [
+    {
+      "id": UUID.generate()
+    },
+    {
+      "id": UUID.generate()
+    },
+    {
+      "id": UUID.generate()
+    }
+  ]
+  res.send(usuarios)
 })
 */
 
