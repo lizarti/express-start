@@ -1,13 +1,17 @@
 {
   "name": "express-start",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Projeto básico de api em express com uma ligeira organização.",
+  "main": "src/server.js",
   "scripts": {
     "start": "nodemon src/server.js"
   },
   "keywords": [],
-  "author": "",
+  "repository": "lizarti/express-start",
+	"author": {
+		"name": "Wesley Lizarti",
+    "email": "wesley.lizarti@gmail.com"
+  ,
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.19.0",
